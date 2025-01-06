@@ -1,0 +1,42 @@
+.outer-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-heading{
+    height: 20px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.inner-heading span{
+    position: relative;
+    animation: animation 5s ease infinite;
+}
+@keyframes animation{
+    0%
+    , 100%{
+        top: 0;
+    }
+    20%{
+        top: 0;
+    }
+    25%{
+        top: -60px;
+    }
+    45%{
+        top: -60px;
+    }
+    50%{
+        top: -120px;
+    }
+    70%{
+        top: -120px;
+    }
+    75%{
+        top: -180px;
+    }
+    90%{
+        top: -180px;
+    }
+}
