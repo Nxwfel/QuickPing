@@ -1,15 +1,24 @@
+*{
+    font-family: 'Bebas Neue', 'serif';
+}
+
 .outer-heading{
+    
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .inner-heading{
-    height: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 25px;
     line-height: 30px;
     overflow: hidden;
 }
 .inner-heading span{
+    font-size: 30px;
+    box-sizing: border-box;
+    color: #FF0000;
     position: relative;
     animation: animation 5s ease infinite;
 }
@@ -21,22 +30,16 @@
     20%{
         top: 0;
     }
-    25%{
-        top: -60px;
-    }
-    45%{
-        top: -60px;
+    33%{
+        top: -35px;
     }
     50%{
-        top: -120px;
+        top: -35px;
     }
-    70%{
-        top: -120px;
-    }
-    75%{
-        top: -180px;
+    66%{
+        top: -70px;
     }
     90%{
-        top: -180px;
+        top: -70px;
     }
 }
