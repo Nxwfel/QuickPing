@@ -18,7 +18,7 @@
 .inner-heading span{
     font-size: 30px;
     box-sizing: border-box;
-    color: #FF0000;
+    color: rgb(219, 3, 3);
     position: relative;
     animation: animation 5s ease infinite;
 }
