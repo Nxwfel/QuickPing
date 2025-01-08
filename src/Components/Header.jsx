@@ -5,10 +5,9 @@ export function Header() {
     <header className='flex'>
      <div className='outer-heading'>
       <div className="inner-heading">
-        <span> Quick <br /> Fast <br /> Rapid <br /></span>
+        <span> Sor3a <br /> Sor3a <br /> Sor3a <br /></span>
       </div>
-      <h1 className='text-3xl text-black animate-pulse ml-1 mt-2.5' >Ping </h1>
-      <span class="absolute left-28 ml-3 top-3 flex h-3 w-3">
+      <span class="absolute left-20 top-3 flex h-3 w-3">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-600 opacity-75"></span>
         <span class="relative inline-flex rounded-full h-3 w-3 bg-red-600"></span>
       </span>
